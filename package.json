@@ -1,6 +1,6 @@
 {
   "name": "react-enhanced-context",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "use react Hooks and Context api to manage state, thanks to @react-simply/state",
   "scripts": {
     "build:types": "tsc --declaration --emitDeclarationOnly  --declarationDir lib",
