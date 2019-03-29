@@ -1,0 +1,34 @@
+{
+  "name": "react-enhanced-context",
+  "version": "0.3.0",
+  "description": "use react Hooks and Context api to manage state, thanks to @react-simply/state",
+  "scripts": {
+    "build:types": "tsc --declaration --emitDeclarationOnly  --declarationDir lib",
+    "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" ",
+    "build": "rimraf -rf lib && npm run build:types && npm run build:js",
+    "start": "yarn run build"
+  },
+  "dependencies": {
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/node": "^11.9.5",
+    "@types/react": "^16.8.5",
+    "cross-env": "^5.2.0",
+    "rimraf": "^2.6.3",
+    "typescript": "3.2.4"
+  },
+  "files": [
+    "lib/"
+  ],
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "license": "MIT"
+}
