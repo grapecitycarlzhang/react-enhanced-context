@@ -1,6 +1,6 @@
 {
   "name": "react-enhanced-context",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "use react Hooks and Context api to manage state, thanks to @react-simply/state",
   "scripts": {
     "build:types": "tsc --declaration --emitDeclarationOnly  --declarationDir lib",
@@ -9,7 +9,7 @@
     "start": "yarn run build"
   },
   "dependencies": {
-    "react": "^16.8.4"
+    "react": "^16.8.6"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
